@@ -1,0 +1,13 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.temprature,
+.humidity,
+.airPressure {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
